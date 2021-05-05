@@ -1,0 +1,127 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+	background-color: lightblue;
+}
+
+
+   input::-webkit-inner-spin-button,
+    input::-webkit-outer-spin-button{
+      -webkit-appearance:none;
+    }
+    input[type="number"]{
+      -moz-appearance:textfield;
+    }
+
+.container{
+	width: 100%; 	
+	margin: auto;
+	overflow: hidden;
+}
+
+.button{
+	border-radius: 20px;
+	background: red;
+	width: 100px;
+	text-align: center;
+	margin-top: 10px;
+
+
+}
+
+header{
+	background: linear-gradient(to right, #fe5221 0%, #fd7d26 100%);
+
+
+
+
+}
+#head{
+	color: white;
+	text-align: left;
+	padding-left: 100px;
+}
+
+#navbar{
+	
+	color: white;
+	text-align: right;
+	padding-right: 30px;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+	
+}
+
+#navbar li{
+	display: inline;
+
+}
+
+#navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.sign{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+.sign h1{
+	padding-bottom: 20px;
+}
+
+.sign label{
+	font-size: 0.9rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+.sign input{
+	margin-bottom: 1.3rem;
+	width: 100%;
+	border-radius: 4px;
+
+}
+
+.button{
+	margin-top: 10px;
+	font-size: 25px;
+	display: block;
+	border:block;
+	border-radius: 2px;
+	font-weight: 500;
+	background-color: orange;
+	color: white;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	
+	background: linear-gradient(to left, #fe5221 0%, #fd7d26 100%);
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+}

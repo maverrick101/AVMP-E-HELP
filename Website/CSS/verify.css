@@ -1,0 +1,86 @@
+body{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	padding:0;
+	margin: 0;
+	 background-image: linear-gradient(#F8F8FF, #FFFAF0);
+}
+
+
+   input::-webkit-inner-spin-button,
+    input::-webkit-outer-spin-button{
+      -webkit-appearance:none;
+    }
+    input[type="number"]{
+      -moz-appearance:textfield;
+    }
+
+
+
+
+.container{
+	width: 80%; 	
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+
+.verify{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+.verify h1{
+	padding-bottom: 20px;
+}
+
+.verify label{
+	font-size: 0.9rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+.verify input{
+	margin-bottom: 1.3rem;
+	width: 100%;
+	border-radius: 4px;
+
+}
+
+.button{
+	margin-top: 10px;
+	font-size: 25px;
+	display: block;
+	border:block;
+	border-radius: 2px;
+	font-weight: 500;
+	background-color: orange;
+	color: white;
+	
+
+}
+.verify select{
+	background: red;
+	font-family: sans-serif;
+}
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	background: linear-gradient(to left, #fe5221 0%, #fd7d26 100%);
+	padding: 20px;
+	
+	text-align: center;
+}

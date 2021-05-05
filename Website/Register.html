@@ -1,0 +1,69 @@
+<?php
+session_start();
+
+	include("insert.php");
+	include("functions.php");
+
+	header("Location: Login.html");
+	die;
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regestration Form</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Registerstyle.css">
+</head>
+<body>
+<header>
+		<div class="container">
+
+			<div id="head">
+				 <h1>AVMP E-HELP</h1>
+			</div>
+
+			<nav id="navbar">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About Us.html">About US</a></li>
+					<li><a href="contact.html">Contact US</a></li>
+					<li><a href="Login.html">Login</a></li>
+					<li><a href="Register.html">Register</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+		<div class="sign">
+	<h1>Sign Up</h1>
+	<form name="form1" action="insert.php" method="post">
+		<div class="container">
+			<div class="group">
+				<label>UserName:</label>
+				<input type="text" name="Username" required >
+			</div>
+			<div class="group">
+				<label>MobileNo:</label>
+				<input type="number" name="MobileNo" required >
+			</div>
+			<div class="group">
+				<label>Email:</label>
+				<input type="Email" name="Email"  required>
+			</div>
+			<div class="group">
+				<label>Password</label>
+				<input type="Password" name="Password"  required >
+			</div>
+			<input class="button" type="submit" value="submit">
+
+			<p>Already a User? <a href="Login.html">Click Here</a> to Login</p>
+			
+		</div>
+	</div>
+	</form>
+<footer id="main-footer">
+		<p>Copyright &copy;2021 AVMP E-HELP </p>
+	</footer>
+</body>
+</html>
